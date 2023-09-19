@@ -1,0 +1,27 @@
+{
+    "name": "backend-angular",
+    "version": "1.0.0",
+    "description": "BACKEND projet React native",
+    "main": "index.js",
+    "scripts": {
+      "start": "nodemon index.js"
+    },
+    "keywords": [
+      "express",
+      "multer",
+      "cors"
+    ],
+    "author": "MNS",
+    "license": "ISC",
+    "dependencies": {
+      "bcrypt": "^5.1.0",
+      "cors": "^2.8.5",
+      "express": "^4.17.1",
+      "jsonwebtoken": "^9.0.0",
+      "multer": "^1.4.4",
+      "mysql": "^2.18.1"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.15"
+    }
+  }
